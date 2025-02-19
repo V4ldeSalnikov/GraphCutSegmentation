@@ -143,7 +143,7 @@ def main():
 
         2. **Setting Up Edge Structures and Weight on Edges**  
            Build a 4-connected grid where adjacent pixels are linked by edges. Assign a regularization
-           weight $v$ to these edges, encouraging spatial smoothness.
+           weight $v$ to these edges, to increase spatial smoothness.
 
         3. **Negative Log Likelihoods**  
            For each pixel $p$, compute the negative log-likelihoods:
@@ -166,7 +166,7 @@ def main():
            those connected to the source (chamber) and those connected to the sink (background).
 
         7. **Extract and Visualize Segmentation**  
-           From the flow network, determine which pixels remain in the source set. This yields a binary
+           From the flow network, determine which pixels remain in the source set. This creates a binary
            segmentation mask for the heart chamber.
         """
     st.markdown(algorithm_description)
