@@ -8,7 +8,7 @@ This project demonstrates **heart chamber segmentation** using a **graph-cut** a
 
 - **Python** (NumPy, SciPy): Main language and libraries for the algorithm
 - **Streamlit**: For UI and Frontend
-- **Matplotlib**: for for plotting and displaying images
+- **Matplotlib**: for plotting and displaying images
 
 ## Segmentation Screenshot
 
